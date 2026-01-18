@@ -26,28 +26,22 @@ SMART_CAR_SYSTEM은 차량의 AI 기반 자동 및 수동 와이퍼 제어 및 �
 ## 🛠 하드웨어 구성
 
 ### Sensor Side
-#### Easy Module Shield
-- 차량 상태를 감지하는 센서 모듈
-- 온도 및 습도: DHT11
-- 차량 속도: Potentiometer
+
+#### Arduino Water Pump
+- 워셔액 분사 펌프
+#### DHT11
+- 온도 및 습도:
 #### SW-420
 - 진동 감지 센서 모듈
-#### Nucelo-L073RZ
-- 측정된 센서값을 Analog to Digital Convert 후 LCD 및 Master 모듈로 전송
+#### SZH-SSBH-022]
+- 빗물 감지 센서 모
 
-### LCD Side
-#### LCD 1602
-- 차량 상태 확인 LCD
-#### Nucelo-L073RZ
-- 차량 상태 데이터 LCD 출력 및 Master 모듈로 전송
-
-### Master Side
-#### DFPlayer Mini
-- 특정 동작 시 효과음 출력
-#### 180° Servo Motor
-- 차량 문, 선루프 개폐
+### P298P
+- 차량 움직임 제어 모터 쉴드
+#### sh02-DC Motor
+- 차량 움직임 제어
 #### 360° Servo Motor
-- 차량 주행 출발/정지
+- 차량 와이퍼 제어
 #### Nucelo-L073RZ
 - 센서 데이터 수신 및 차량 상태 관리
 - ESP32와 통신하여 데이터를 웹 서버로 전송
@@ -61,15 +55,15 @@ SMART_CAR_SYSTEM은 차량의 AI 기반 자동 및 수동 와이퍼 제어 및 �
 
 ### 🔧 임베디드 시스템
 - **개발 언어**: C
-- **IDE**: Keil uVision
+- **IDE**: stm32CubeIde
 - **통신 프로토콜**: UART, Wi-Fi
   
 ### 🌐 웹 서비스
 - **개발 언어**: JavaScript
-- **프레임워크**: React, Express.js, Node.js, MongoDB
+- **프레임워크**: Node.js, HTML, css
 
 ## 📝 시스템 개발 설계서
-![Image](https://github.com/user-attachments/assets/a50ad8e5-da95-4a9d-a6ee-40d2b3c59a7a)
+아직 안함
 
 ### 센서 통신 데이터 포맷
 - uint8_t 15Byte
