@@ -96,8 +96,8 @@ SMART_CAR_SYSTEM은 차량의 AI 기반 자동 및 수동 와이퍼 제어 및 �
 | 이름 | GitHub |
 |------|--------|
 | 김다현 | [) |
-| 박태정 | [) |
-| 김경태 | [) |
+| 박태정 | [https://github.com/right-path-ptj) |
+| 김경태 | [https://github.com/kkt1008) |
 | 정나현 | [) |
 | 안재형 | [) |
 
