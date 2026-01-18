@@ -89,14 +89,7 @@ SMART_CAR_SYSTEM은 차량의 AI 기반 자동 및 수동 와이퍼 제어 및 �
 
 
 ## 📌 프로젝트 구조
-```
-Hyundai-embedded-project/
-│── ESP32/          # ESP32 코드
-│── lcd/            # LCD 코드
-│── master/         # Master 코드
-│── sensor/         # Sensor 코드
-└── README.md       # 프로젝트 설명 파일
-```
+아직 없음
 
 ## 팀 구성원
 
