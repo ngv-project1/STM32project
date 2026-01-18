@@ -89,7 +89,8 @@ SMART_CAR_SYSTEM은 차량의 AI 기반 자동 및 수동 와이퍼 제어 및 �
 
 
 ## 📌 프로젝트 구조
-아직 없음
+<img width="2043" height="1204" alt="image" src="https://github.com/user-attachments/assets/ee23ff77-221a-4077-88b9-e15305626ee4" />
+
 
 ## 팀 구성원
 
